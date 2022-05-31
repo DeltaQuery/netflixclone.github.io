@@ -6,7 +6,9 @@
   "scripts": {
     "build": "webpack --mode=production",
     "dev": "webpack serve --mode=development",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build"
   },
   "author": "cebracho94@gmail.com",
   "license": "ISC",
@@ -28,5 +30,6 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.4.0"
-  }
+  },
+  "homepage": "https://DeltaQuery.github.io/netflixclone.github.io"
 }
