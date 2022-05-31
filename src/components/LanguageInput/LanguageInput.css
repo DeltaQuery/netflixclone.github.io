@@ -1,0 +1,30 @@
+@import "../../styles.css";
+
+.languageInputContainer {
+    margin-top: 20px;
+}
+
+.languageInput {
+    margin-left: -20px;
+    width: 125px;
+    height: 48px;
+    background-color: black;
+    padding: 0px 0px 0px 50px;
+    font-size: var(--text-small-size);
+    color: var(--gray-second-color);
+    border: 1px solid var(--gray-font-color);
+}
+
+.languageInput:focus {
+    border: 1px solid var(--gray-second-color);
+}
+
+.languageIcon {
+    position: relative;
+    top: 5px;
+    right: -10px;
+}
+
+option {
+    color: var(--gray-second-color);
+}

@@ -1,0 +1,33 @@
+@import "../../styles.css";
+
+.jButton {
+    background-color: var(--main-red);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.jButton:hover {
+    background-color: var(--hover-red);
+}
+
+.jButton:focus {
+    background-color: var(--clicked-red);
+    border: 1px solid var(--border-red);
+}
+
+.jButtonMd {
+    width: 115px;
+    height: 37px;
+}
+
+.jButtonLg {
+    width: 178px;
+    height: 54px;
+    font-size: var(--h4-font-size);
+}
+
+@media (max-width: 500px) {
+    .jButtonMore {
+        width: 100%;
+    }
+}
